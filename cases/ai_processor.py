@@ -125,8 +125,8 @@ def generate_embedding_from_image(image_relative_path):
         embedding_vector, _ = _extract_face_data(image, RETINAFACE_MODEL)
         
         if embedding_vector is None:
-             print("AI Processor: Failed to extract embedding (No face found).")
-             return None
+            print("AI Processor: Failed to extract embedding (No face found).")
+            return None
 
         print(f"AI Processor: Generated {embedding_vector.shape[0]}D embedding for storage.")
         return embedding_vector.tolist()
