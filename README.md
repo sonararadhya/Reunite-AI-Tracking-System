@@ -159,17 +159,6 @@ python scripts/rtspCam.py
 
 ---
 
-## 💡 Suggested Names for Future Evolution
-
-If you are looking to rebrand or elevate this project, here are some powerful suggestions:
-1. **OmniSight AI**
-2. **Aegis Tracker**
-3. **TraceNet Solutions**
-4. **Sentinel Reunion**
-5. **Project Nexus (By Aradhya)**
-
----
-
 ## 👤 Author & Creator
 
 **Built and maintained by Aradhya Sonar.**
