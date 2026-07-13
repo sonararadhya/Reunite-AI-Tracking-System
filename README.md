@@ -92,7 +92,6 @@ Reunite-AI-Tracking-System/
 └── manage.py                # Django CLI
 ```
 
-*(Note: Certain cache and virtual environment folders like `venv`, `__pycache__`, and `.git` are excluded for brevity.)*
 
 ---
 
