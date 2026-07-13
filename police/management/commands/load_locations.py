@@ -1,12 +1,13 @@
 from django.core.management.base import BaseCommand
 import csv
 from police.models import State, District, Taluka
+from django.conf import settings
 
 class Command(BaseCommand):
     help = 'Load states, districts, talukas from CSV'
 
     def handle(self, *args, **kwargs):
-        with open('locations.csv') as f:
+        with open(settings.BASE_DIR / 'data' / 'locations.csv') as f:
             reader = csv.DictReader(f)
             for row in reader:
                 state, _ = State.objects.get_or_create(name=row['state'])

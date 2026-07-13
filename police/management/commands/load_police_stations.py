@@ -1,12 +1,13 @@
 from django.core.management.base import BaseCommand
 import csv
 from police.models import Taluka, PoliceStation
+from django.conf import settings
 
 class Command(BaseCommand):
     help = 'Load or update police stations from CSV'
 
     def handle(self, *args, **kwargs):
-        with open('police_stations.csv') as f:
+        with open(settings.BASE_DIR / 'data' / 'police_stations.csv') as f:
             reader = csv.DictReader(f)
             for row in reader:
                 taluka_obj = Taluka.objects.get(name=row['taluka'])

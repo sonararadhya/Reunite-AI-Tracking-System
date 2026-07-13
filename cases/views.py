@@ -361,12 +361,20 @@ from django.shortcuts import get_object_or_404
 from django.template.loader import render_to_string
 from django.utils import timezone
 from .models import Case
-
-path_wkhtmltopdf = r"C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe"
-config = pdfkit.configuration(wkhtmltopdf=path_wkhtmltopdf)
+import platform
 
 def get_report(request, case_id):
     case = get_object_or_404(Case, pk=case_id)
+    
+    # Configure pdfkit dynamically inside the function
+    try:
+        if platform.system() == "Windows":
+            path_wkhtmltopdf = r"C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe"
+            config = pdfkit.configuration(wkhtmltopdf=path_wkhtmltopdf)
+        else:
+            config = pdfkit.configuration()
+    except IOError:
+        return HttpResponse("Error: wkhtmltopdf is not installed on this server.", status=500)
 
     # Attach fully qualified URLs to images
     for photo in case.photos.all():
