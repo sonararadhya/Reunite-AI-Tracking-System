@@ -171,3 +171,6 @@ python scripts/rtspCam.py
 <div align="center">
   <i>No unauthorized usage allowed. </i>
 </div>
+
+---
+*📝 Last maintained: July 20, 2026 at 18:32 UTC*
