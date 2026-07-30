@@ -165,11 +165,5 @@ python scripts/rtspCam.py
 🔗 **GitHub:** [https://github.com/sonararadhya](https://github.com/sonararadhya)
 
 > *"Empowering communities through artificial intelligence to reunite loved ones."*
-
----
-<div align="center">
-  <i>No unauthorized usage permitted. </i>
-</div>
-
 ---
 *📝 Last maintained: July 30, 2026 at 17:49 UTC*
