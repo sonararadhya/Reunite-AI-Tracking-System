@@ -5,7 +5,7 @@
   <h1>🌟 ARADHYA SONAR - AI Tracking & Reunion System 🌟</h1>
   
   <p>
-    <strong>A Cutting-Edge Computer Vision & AI Platform for Tracking and Reuniting Missing Individuals</strong>
+    <strong>An Innovative Computer Vision & AI Platform for Tracking and Reuniting Missing Individuals</strong>
   </p>
   
   [![Author](https://img.shields.io/badge/Author-Aradhya_Sonar-blue?style=for-the-badge&logo=github)](https://github.com/sonararadhya)
@@ -26,24 +26,22 @@
 
 ## 🚀 Overview
 
-Welcome to the **AI Tracking & Reunion System** developed by **Aradhya Sonar**. This robust platform serves as an intelligent safeguard, utilizing state-of-the-art AI and advanced computer vision algorithms to significantly expedite the process of locating missing persons and ensuring their safe return to their families.
+Welcome to the **AI Tracking & Reunion System**, crafted by **Aradhya Sonar**. This powerful platform acts as an intelligent safeguard, leveraging cutting-edge AI and advanced computer vision algorithms to significantly accelerate the process of locating missing persons and ensuring their safe return to their families.
 
-By integrating real-time facial recognition, decentralized RTSP camera tracking, and a comprehensive centralized database, this system enhances contemporary security and law enforcement capabilities.
+By integrating real-time facial recognition, decentralized RTSP camera tracking, and a comprehensive centralized database, this system enhances modern security and law enforcement capabilities.
 
 ## ✨ Key Features
 
-- **🧠 Advanced Facial Recognition**: Utilizes deep-learning ArcFace models to achieve unmatched accuracy in face matching, even under challenging lighting conditions or angles.
-- **📍 Live RTSP Camera Tracking**: Interfaces with global or local surveillance streams to autonomously analyze live video feeds.
+- **🧠 Advanced Facial Recognition**: Employs deep-learning ArcFace models to achieve unparalleled accuracy in face matching, even under challenging lighting conditions or angles.
+- **📍 Live RTSP Camera Tracking**: Connects with global or local surveillance streams to autonomously analyze live video feeds.
 - **🚨 Instant AI Alerts**: Sends real-time notifications to administrators and law enforcement personnel upon detecting a positive match.
-- **🛡️ Secure Command Center**: A Django-powered centralized dashboard that allows law enforcement to manage cases, monitor sightings, and coordinate operations effectively.
-- **⚡ Asynchronous Processing**: Employs Celery and Redis to manage intensive image processing tasks in the background without losing frames.
+- **🛡️ Secure Command Center**: A Django-powered centralized dashboard that enables law enforcement to manage cases, monitor sightings, and coordinate operations effectively.
+- **⚡ Asynchronous Processing**: Utilizes Celery and Redis to handle intensive image processing tasks in the background without losing frames.
 - **🌍 Geospatial Mapping**: Instantly calculates the nearest police stations upon a positive sighting to facilitate prompt assistance.
-
----
 
 ## 🛠 Technology Stack
 
-This project combines proven frameworks with cutting-edge machine learning tools.
+This project integrates established frameworks with state-of-the-art machine learning tools.
 
 | Category | Technology |
 | :--- | :--- |
@@ -53,8 +51,6 @@ This project combines proven frameworks with cutting-edge machine learning tools
 | **AI & Computer Vision** | OpenCV, InsightFace (RetinaFace & ArcFace) |
 | **Data Analytics** | NumPy, Scikit-Learn |
 | **Frontend** | HTML5, CSS3, JavaScript, Bootstrap |
-
----
 
 ## 📂 Project Architecture
 
@@ -92,13 +88,11 @@ Reunite-AI-Tracking-System/
 └── manage.py                # Django CLI
 ```
 
----
-
 ## 💻 Getting Started
 
 ### 1. Environment Setup
 
-Clone the repository and set up your environment:
+Clone the repository and establish your environment:
 ```bash
 git clone https://github.com/sonararadhya/Reunite-AI-Tracking-System.git
 cd Reunite-AI-Tracking-System
@@ -145,8 +139,6 @@ celery -A Reunite worker -l info -P solo
 ```bash
 python scripts/rtspCam.py
 ```
-
----
 
 ## 🏆 Certifications & Reports
 
