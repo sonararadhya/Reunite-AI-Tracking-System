@@ -5,7 +5,7 @@
   <h1>🌟 ARADHYA SONAR - AI Tracking & Reunion System 🌟</h1>
   
   <p>
-    <strong>A State-of-the-Art Computer Vision & AI Platform for Tracking and Reconnecting Missing Individuals</strong>
+    <strong>A Cutting-Edge Computer Vision & AI Platform for Tracking and Reuniting Missing Individuals</strong>
   </p>
   
   [![Author](https://img.shields.io/badge/Author-Aradhya_Sonar-blue?style=for-the-badge&logo=github)](https://github.com/sonararadhya)
@@ -16,7 +16,7 @@
   <p align="center">
     <a href="#overview">Overview</a> • 
     <a href="#key-features">Key Features</a> • 
-    <a href="#technology-stack">Tech Stack</a> • 
+    <a href="#technology-stack">Technology Stack</a> • 
     <a href="#project-architecture">Architecture</a> • 
     <a href="#getting-started">Installation</a>
   </p>
@@ -26,24 +26,24 @@
 
 ## 🚀 Overview
 
-Welcome to the **AI Tracking & Reunion System** by **Aradhya Sonar**. This powerful platform acts as an intelligent shield, leveraging cutting-edge AI and advanced computer vision algorithms to drastically accelerate the process of locating missing persons and returning them safely to their families.
+Welcome to the **AI Tracking & Reunion System** developed by **Aradhya Sonar**. This robust platform serves as an intelligent safeguard, utilizing state-of-the-art AI and advanced computer vision algorithms to significantly expedite the process of locating missing persons and ensuring their safe return to their families.
 
-By unifying real-time facial recognition, decentralized RTSP camera tracking, and a comprehensive centralized database, this system elevates modern security and law enforcement capabilities.
+By integrating real-time facial recognition, decentralized RTSP camera tracking, and a comprehensive centralized database, this system enhances contemporary security and law enforcement capabilities.
 
 ## ✨ Key Features
 
-- **🧠 Advanced Facial Recognition**: Employs deep-learning ArcFace models to match faces with unparalleled accuracy, even in low-light or angled scenarios.
-- **📍 Live RTSP Camera Tracking**: Connects to global or local surveillance streams to analyze live feeds autonomously.
-- **🚨 Instant AI Alerts**: Triggers real-time notifications to administrators and officers upon detecting a positive match.
-- **🛡️ Secure Command Center**: A Django-powered centralized dashboard for law enforcement to manage cases, view sightings, and coordinate operations.
-- **⚡ Asynchronous Processing**: Utilizes Celery and Redis to handle intensive image processing operations natively in the background without dropping frames.
-- **🌍 Geospatial Mapping**: Calculates nearby police stations instantly upon a positive sighting to dispatch aid seamlessly.
+- **🧠 Advanced Facial Recognition**: Utilizes deep-learning ArcFace models to achieve unmatched accuracy in face matching, even under challenging lighting conditions or angles.
+- **📍 Live RTSP Camera Tracking**: Interfaces with global or local surveillance streams to autonomously analyze live video feeds.
+- **🚨 Instant AI Alerts**: Sends real-time notifications to administrators and law enforcement personnel upon detecting a positive match.
+- **🛡️ Secure Command Center**: A Django-powered centralized dashboard that allows law enforcement to manage cases, monitor sightings, and coordinate operations effectively.
+- **⚡ Asynchronous Processing**: Employs Celery and Redis to manage intensive image processing tasks in the background without losing frames.
+- **🌍 Geospatial Mapping**: Instantly calculates the nearest police stations upon a positive sighting to facilitate prompt assistance.
 
 ---
 
 ## 🛠 Technology Stack
 
-The project fuses battle-tested frameworks with next-generation machine learning tools.
+This project combines proven frameworks with cutting-edge machine learning tools.
 
 | Category | Technology |
 | :--- | :--- |
@@ -52,7 +52,7 @@ The project fuses battle-tested frameworks with next-generation machine learning
 | **Database** | SQLite3 / Django ORM |
 | **AI & Computer Vision** | OpenCV, InsightFace (RetinaFace & ArcFace) |
 | **Data Analytics** | NumPy, Scikit-Learn |
-| **Frontend** | HTML5, CSS3, JS, Bootstrap |
+| **Frontend** | HTML5, CSS3, JavaScript, Bootstrap |
 
 ---
 
@@ -61,7 +61,7 @@ The project fuses battle-tested frameworks with next-generation machine learning
 ```text
 Reunite-AI-Tracking-System/
 ├── Reunite/                 # Core Django Configuration & Settings
-│   ├── settings.py          # Environment, Security, and App Configuration
+│   ├── settings.py          # Environment, Security, and Application Configuration
 │   ├── urls.py              # Root URL Routing
 │   └── wsgi.py / asgi.py    # Server Gateway Interfaces
 ├── cases/                   # Missing Person AI Match Engine
@@ -92,14 +92,13 @@ Reunite-AI-Tracking-System/
 └── manage.py                # Django CLI
 ```
 
-
 ---
 
 ## 💻 Getting Started
 
 ### 1. Environment Setup
 
-Clone the repository and prepare your environment:
+Clone the repository and set up your environment:
 ```bash
 git clone https://github.com/sonararadhya/Reunite-AI-Tracking-System.git
 cd Reunite-AI-Tracking-System
@@ -115,7 +114,7 @@ source venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
-*(Ensure you have system-level dependencies for OpenCV and Redis installed).*
+*(Ensure that you have the necessary system-level dependencies for OpenCV and Redis installed).*
 
 ### 3. Initialize Services
 
@@ -130,7 +129,7 @@ python manage.py migrate
 ```
 
 ### 4. Boot up the Ecosystem
-You will need multiple terminal windows to run the full suite:
+You will need multiple terminal windows to run the complete setup:
 
 **Terminal 1 (Web Dashboard):**
 ```bash
@@ -151,7 +150,7 @@ python scripts/rtspCam.py
 
 ## 🏆 Certifications & Reports
 
-- **Final Year Project Report:** [Read the comprehensive project report](./docs/Final_Year_Project_Report.pdf)
+- **Final Year Project Report:** [Access the comprehensive project report](./docs/Final_Year_Project_Report.pdf)
 - **Project Certificate:** [View Certificate](./docs/certificates/PROJECT_CERTIFICATE.pdf)
 
 **Project Competition Award:**
@@ -161,15 +160,15 @@ python scripts/rtspCam.py
 
 ## 👤 Author & Creator
 
-**Built and maintained by Aradhya Sonar.**
+**Developed and maintained by Aradhya Sonar.**
 
 🔗 **GitHub:** [https://github.com/sonararadhya](https://github.com/sonararadhya)
 
-> *"Empowering communities with artificial intelligence to bring loved ones home."*
+> *"Empowering communities through artificial intelligence to reunite loved ones."*
 
 ---
 <div align="center">
-  <i>No unauthorized usage allowed. </i>
+  <i>No unauthorized usage permitted. </i>
 </div>
 
 ---
