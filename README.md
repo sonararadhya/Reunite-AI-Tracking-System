@@ -159,4 +159,4 @@ python scripts/rtspCam.py
 > *"Empowering communities through artificial intelligence to reunite loved ones."*
 
 ---
-*📝 Last maintained: August 17, 2026 at 09:07 UTC*
+*📝 Last maintained: August 17, 2026 at 13:23 UTC*
